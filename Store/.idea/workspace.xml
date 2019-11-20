@@ -7,49 +7,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea82ec2-d89f-4013-9e52-ca0e32616b69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/db/core/DBHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/db/core/DBHelp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/db/core/DataAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/db/core/DataAccessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/db/core/JdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/db/core/JdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/db/core/PreparedStatementCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/db/core/PreparedStatementCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/db/core/RowCallbackHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/db/core/RowCallbackHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/GoodsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/MerchantsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/MerchantsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/OrderLineItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/OrderLineItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/MerchantsDaoImpJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/MerchantsDaoImpJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/OrderDaoImpJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/OrderDaoImpJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/domain/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/domain/Merchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/domain/Merchants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/domain/OrderLineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/domain/OrderLineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/domain/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/domain/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/MerchantsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/MerchantsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/CustomerServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/GoodsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/GoodsServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/MerchantsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/MerchantsServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/web/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/web/CharacterEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/web/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/web/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zhijieketang/store/web/OrdersServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/OnlineShop/store/web/OrdersServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/OrderDaoImpJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderDaoImpJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/CustomerServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/CustomerServiceImpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/GoodsServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/GoodsServiceImpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/OrdersServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/OrdersServiceImpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/db/core/DBHelp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/db/core/DBHelp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/db/core/DataAccessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/db/core/DataAccessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/db/core/JdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/db/core/JdbcTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/db/core/PreparedStatementCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/db/core/PreparedStatementCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/db/core/RowCallbackHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/db/core/RowCallbackHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/MerchantsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/MerchantsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/OrderLineItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/OrderLineItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/imp/MerchantsDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/imp/MerchantsDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/imp/OrderDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/imp/OrderDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/domain/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/domain/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/domain/Merchants.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/domain/Merchants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/domain/OrderLineItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/domain/OrderLineItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/domain/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/domain/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/MerchantsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/MerchantsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/OrdersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/OrdersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/ServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/imp/CustomerServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/imp/CustomerServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/imp/GoodsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/imp/GoodsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/imp/MerchantsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/imp/MerchantsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/service/imp/OrdersServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/service/imp/OrdersServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/web/CharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/web/CharacterEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/web/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/web/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/zhijieketang/store/web/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/classes/com/OnlineShop/store/web/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/db/core/DBHelp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/db/core/DBHelp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/db/core/DataAccessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/db/core/DataAccessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/db/core/JdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/db/core/JdbcTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/db/core/PreparedStatementCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/db/core/PreparedStatementCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/db/core/RowCallbackHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/db/core/RowCallbackHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/MerchantsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/MerchantsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/OrderLineItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/OrderLineItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/imp/MerchantsDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/imp/MerchantsDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/imp/OrderDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/imp/OrderDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/domain/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/domain/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/domain/Merchants.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/domain/Merchants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/domain/OrderLineItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/domain/OrderLineItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/domain/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/domain/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/MerchantsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/MerchantsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/OrdersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/OrdersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/ServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/imp/CustomerServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/imp/CustomerServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/imp/GoodsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/imp/GoodsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/imp/MerchantsServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/imp/MerchantsServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/service/imp/OrdersServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/service/imp/OrdersServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/web/CharacterEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/web/CharacterEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/web/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/web/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/production/Store/com/zhijieketang/store/web/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/production/Store/com/OnlineShop/store/web/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/dao/imp/OrderDaoImpJdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/dao/imp/OrderDaoImpJdbcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/service/imp/CustomerServiceImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/service/imp/CustomerServiceImpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/service/imp/GoodsServiceImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/service/imp/GoodsServiceImpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/out/test/Store/com/zhijieketang/store/service/imp/OrdersServiceImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/out/test/Store/com/OnlineShop/store/service/imp/OrdersServiceImpTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,91 +89,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderDaoImpJdbcTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/GoodsServiceImpTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbcTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbcTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/OrdersServiceImpTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="-7030">
+              <caret line="840" column="56" selection-start-line="840" selection-start-column="56" selection-end-line="840" selection-end-column="56" />
               <folding>
-                <element signature="e#1944#1959#0" expanded="true" />
+                <element signature="e#48576#48582#0" expanded="true" />
+                <element signature="e#48589#48595#0" expanded="true" />
+                <element signature="e#48786#48792#0" expanded="true" />
+                <element signature="e#48799#48805#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/cart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
-              <caret line="53" column="78" lean-forward="true" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Store.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1034" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/order_finish.jsp">
+        <entry file="file://$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/mer_reg.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-888">
-              <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/jstl.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/JavaEE6Lib.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/Store_war_exploded.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,14 +180,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/GoodsServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/OrdersService.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/OrdersServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/web/CharacterEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/GoodsServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/OrdersService.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/OrdersServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/web/CharacterEncodingFilter.java" />
         <option value="$PROJECT_DIR$/web/footer..jsp" />
         <option value="$PROJECT_DIR$/web/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/db/core/DBHelp.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/db/core/DBHelp.java" />
         <option value="$PROJECT_DIR$/src/config.properties" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/web/order_finish.jsp" />
@@ -194,17 +195,17 @@
         <option value="$PROJECT_DIR$/web/goods_list.jsp" />
         <option value="$PROJECT_DIR$/web/customer_reg.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/domain/Merchants.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/dao/MerchantsDao.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/MerchantsDaoImpJdbc.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/MerchantsService.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/domain/Merchants.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/dao/MerchantsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/dao/imp/MerchantsDaoImpJdbc.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/MerchantsService.java" />
         <option value="$PROJECT_DIR$/web/mer_reg.jsp" />
         <option value="$PROJECT_DIR$/web/mer_login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/MerchantsServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/web/LoginCheckFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/MerchantsServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/web/LoginCheckFilter.java" />
         <option value="$PROJECT_DIR$/web/main_m.jsp" />
-        <option value="$PROJECT_DIR$/src/com/zhijieketang/store/web/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/OnlineShop/store/web/Controller.java" />
         <option value="$PROJECT_DIR$/web/goods_list_m.jsp" />
         <option value="$PROJECT_DIR$/web/goods_header.jsp" />
         <option value="$PROJECT_DIR$/src/com/OnlineShop/store/dao/GoodsDao.java" />
@@ -221,14 +222,15 @@
         <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/CustomerServiceImp.java" />
         <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/GoodsServiceImp.java" />
         <option value="$PROJECT_DIR$/src/com/OnlineShop/store/service/imp/MerchantsServiceImp.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/CustomerServiceImpTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbcTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/OrderDaoImpJdbcTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/GoodsServiceImpTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbcTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/dao/imp/OrderLineItemDaoImpJdbcTest.java" />
-        <option value="$PROJECT_DIR$/testsrc/com/zhijieketang/store/service/imp/OrdersServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/CustomerServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/CustomerDaoImpJdbcTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderDaoImpJdbcTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/GoodsServiceImpTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/GoodsDaoImpJdbcTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/dao/imp/OrderLineItemDaoImpJdbcTest.java" />
+        <option value="$PROJECT_DIR$/testsrc/com/OnlineShop/store/service/imp/OrdersServiceImpTest.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -260,45 +262,166 @@
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="testsrc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="testsrc" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="testsrc" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="testsrc" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +446,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574234119228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574234678926" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -331,25 +454,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.zhijieketang.store.service.imp" />
-      <recent name="com.zhijieketang.store.dao.imp" />
+      <recent name="com.OnlineShop.store.service.imp" />
+      <recent name="com.OnlineShop.store.dao.imp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhijieketang.store.service.imp" />
-      <recent name="com.zhijieketang.store.service" />
-      <recent name="com.zhijieketang.store.dao.imp" />
-      <recent name="com.zhijieketang.store.dao" />
-      <recent name="com.zhijieketang.store.domain" />
+      <recent name="com.OnlineShop.store.service.imp" />
+      <recent name="com.OnlineShop.store.service" />
+      <recent name="com.OnlineShop.store.dao.imp" />
+      <recent name="com.OnlineShop.store.dao" />
+      <recent name="com.OnlineShop.store.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kino\Desktop\code-02\code\9\Store\web" />
@@ -376,12 +499,12 @@
       <module name="Store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhijieketang.store.web.*" />
+          <option name="PATTERN" value="com.OnlineShop.store.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhijieketang.store.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.zhijieketang.store.service.imp.GoodsServiceImpTest" />
+      <option name="PACKAGE_NAME" value="com.OnlineShop.store.service.imp" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineShop.store.service.imp.GoodsServiceImpTest" />
       <option name="METHOD_NAME" value="querDetail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -392,12 +515,12 @@
       <module name="Store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhijieketang.store.web.*" />
+          <option name="PATTERN" value="com.OnlineShop.store.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhijieketang.store.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.zhijieketang.store.service.imp.GoodsServiceImpTest" />
+      <option name="PACKAGE_NAME" value="com.OnlineShop.store.service.imp" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineShop.store.service.imp.GoodsServiceImpTest" />
       <option name="METHOD_NAME" value="queryAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -408,12 +531,12 @@
       <module name="Store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhijieketang.store.web.*" />
+          <option name="PATTERN" value="com.OnlineShop.store.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhijieketang.store.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.zhijieketang.store.service.imp.GoodsServiceImpTest" />
+      <option name="PACKAGE_NAME" value="com.OnlineShop.store.service.imp" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineShop.store.service.imp.GoodsServiceImpTest" />
       <option name="METHOD_NAME" value="queryByStartEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -424,12 +547,12 @@
       <module name="Store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhijieketang.store.web.*" />
+          <option name="PATTERN" value="com.OnlineShop.store.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhijieketang.store.service.imp" />
-      <option name="MAIN_CLASS_NAME" value="com.zhijieketang.store.service.imp.OrdersServiceImpTest" />
+      <option name="PACKAGE_NAME" value="com.OnlineShop.store.service.imp" />
+      <option name="MAIN_CLASS_NAME" value="com.OnlineShop.store.service.imp.OrdersServiceImpTest" />
       <option name="METHOD_NAME" value="submitOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -527,6 +650,11 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructuralSearchPlugin">
+    <replaceConfiguration name="user defined" created="1574234394996" text="zhijieketang" recursive="false" caseInsensitive="true" type="JAVA" scope_type="PROJECT" scope_descriptor="" reformatAccordingToStyle="false" shortenFQN="false" replacement="OnlineShop" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </replaceConfiguration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -589,7 +717,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98787000" />
+    <option name="totallyTimeSpent" value="99188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +738,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" sideWeight="0.5007342" side_tool="true" weight="0.22439353" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.25720385" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.25720385" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32892805" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32719395" />
@@ -620,7 +748,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.4225352" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.4225352" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4904552" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -704,8 +832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/MerchantsDaoImpJdbc.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/dao/MerchantsDao.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/dao/CustomerDao.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/service/MerchantsService.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/domain/Merchants.java" />
@@ -746,14 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/web/OrdersServiceImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/web/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/MerchantsServiceImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/GoodsServiceImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/service/imp/CustomerServiceImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/domain/Customer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/GoodsDaoImpJdbc.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zhijieketang/store/dao/imp/CustomerDaoImpJdbc.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/OnlineShop/store/domain/Customer.java" />
     <entry file="file://$PROJECT_DIR$/web/goods_list_m.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -991,7 +1110,7 @@
     <entry file="file://$PROJECT_DIR$/web/mer_reg.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-888">
-          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -999,6 +1118,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/out/artifacts/Store_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7030">
+          <caret line="840" column="56" selection-start-line="840" selection-start-column="56" selection-end-line="840" selection-end-column="56" />
+          <folding>
+            <element signature="e#48576#48582#0" expanded="true" />
+            <element signature="e#48589#48595#0" expanded="true" />
+            <element signature="e#48786#48792#0" expanded="true" />
+            <element signature="e#48799#48805#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
