@@ -19,7 +19,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
 
         List<Goods> list = new ArrayList<Goods>();
 
-        String sql = "select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image from Goods where id=?";
+        String sql = "select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image,storage from Goods where id=?";
         jdbcTemplate.query(conn -> {
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setLong(1, pk);
@@ -35,12 +35,13 @@ public class GoodsDaoImpJdbc implements GoodsDao {
         return null;
     }
 
+
     @Override
     public List<Goods> findAll() {
 
         List<Goods> list = new ArrayList<Goods>();
 
-        String sql = "select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image from Goods";
+        String sql = "select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image,storage from Goods";
         jdbcTemplate.query(conn -> {
             PreparedStatement ps = conn.prepareStatement(sql);
             return ps;
@@ -56,7 +57,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
 
         List<Goods> list = new ArrayList<Goods>();
 
-        StringBuffer sql = new StringBuffer("select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image from Goods");
+        StringBuffer sql = new StringBuffer("select id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image,storage from Goods");
         sql.append(" LIMIT ").append(end - start);
         sql.append(" OFFSET ").append(start);
 
@@ -85,15 +86,15 @@ public class GoodsDaoImpJdbc implements GoodsDao {
         goods.setCardModel(rs.getString("card_model"));
         goods.setDisplaysize(rs.getString("displaysize"));
         goods.setImage(rs.getString("image"));
-
+        goods.setStorage(rs.getInt("storage"));
         list.add(goods);
     }
 
     @Override
     public void create(Goods goods) {
 
-        String sql = "insert into Goods (id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image)" +
-                " values (?,?,?,?,?,?,?,?,?,?,?,?)";
+        String sql = "insert into Goods (id,name,price,description,brand,cpu_brand,cpu_type,memory_capacity,hd_capacity,card_model,displaysize,image,storage)" +
+                " values (?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         jdbcTemplate.update(conn -> {
 
@@ -111,6 +112,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
             ps.setString(10, goods.getCardModel());
             ps.setString(11, goods.getDisplaysize());
             ps.setString(12, goods.getImage());
+            ps.setInt(13,goods.getStorage());
 
             return ps;
         });
@@ -119,7 +121,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
 
     @Override
     public void modify(Goods goods) {
-        String sql = "update Goods set name=?,price=?,description=?,brand=?,cpu_brand=?,cpu_type=?,memory_capacity=?,hd_capacity=?,card_model=?,displaysize=?,image=? where id=?";
+        String sql = "update Goods set name=?,price=?,description=?,brand=?,cpu_brand=?,cpu_type=?,memory_capacity=?,hd_capacity=?,card_model=?,displaysize=?,image=? ,storage=? where id=?";
 
         jdbcTemplate.update(conn -> {
 
@@ -137,6 +139,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
             ps.setString(10, goods.getDisplaysize());
             ps.setString(11, goods.getImage());
             ps.setLong(12, goods.getId());
+            ps.setInt(13,goods.getStorage());
 
             return ps;
         });

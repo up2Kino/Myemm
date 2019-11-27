@@ -26,6 +26,8 @@ public class Goods {
     private String displaysize;
     /* 电脑图片*/
     private String image;
+    /*库存*/
+    private int storage;
 
 //    private List<OrderLineItem> orderLineItems;
 
@@ -123,5 +125,13 @@ public class Goods {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public void setStorage(int storage){
+        this.storage = storage;
+    }
+
+    public int getStorage(){
+        return storage;
     }
 }

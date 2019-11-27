@@ -32,11 +32,24 @@
         border-top: 1px dashed #666666;
         text-align: center;
     }
+
+    /*商品列表第4列*/
+    .col4 {
+        padding-top: 5px;
+        border-top: 1px dashed #666666;
+        text-align: center;
+    }
 </style>
 <body>
-<jsp:include page="goods_header.jsp" flush="true" >
-    <jsp:param name="image" value="list.jpg" />
-</jsp:include>
+<table width="100%" border="0" align="center">
+    <tr>
+        <td width="616"><img src="images/list.jpg" align="absmiddle"/></td>
+        <td width="734" align="right">
+            | <a href="controller?action=list">商品列表</a>
+            | <a href="controller?action=logout">帐户注销</a>
+        </td>
+    </tr>
+</table>
 <hr width="100%"/>
 <div class="text3" align="center">请从商品列表中选择商品</div>
 <br>
@@ -44,6 +57,7 @@
     <tr bgcolor="#b4c8ed">
         <th>商品名称</th>
         <th width="5%">商品价格</th>
+        <th width="15%">商品库存</th>
         <th width="15%">修改商品信息</th>
     </tr>
     <c:forEach var="goods" items="${goodsList}" varStatus="status">
@@ -57,7 +71,8 @@
         >
             <td class="col1"><a href="controller?action=detail&id=${goods.id}">${goods.description}</a></td>
             <td class="col2">￥${goods.price}</td>
-            <td class="col3"><a href="controller?action=add&pagename=list&id=${goods.id}&name=${goods.name}&price=${goods.price}">修改商品信息</a></td>
+            <td class="col3">${goods.storage}</td>
+            <td class="col4"><a href="controller?action=change_goods&pagename=list&id=${goods.id}">修改</a></td>
         </tr>
     </c:forEach>
 

@@ -25,4 +25,10 @@ public class GoodsServiceImp implements GoodsService {
     public Goods querDetail(long goodsid) {
         return goodsDao.findByPk(goodsid);
     }
+
+    public void create(Goods goods){
+
+        goodsDao.create(goods);
+
+    }
 }

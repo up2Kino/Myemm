@@ -261,8 +261,10 @@ public class Controller extends javax.servlet.http.HttpServlet {
             request.setAttribute("totalPageNumber", totalPageNumber);
             request.setAttribute("currentPage", currentPage);
             request.setAttribute("goodsList", goodsList);
-            request.getRequestDispatcher("goods_list.jsp").forward(request, response);
-
+            Merchants merchants = (Merchants)request.getSession().getAttribute("merchants");
+            if(merchants ==null) {
+                request.getRequestDispatcher("goods_list.jsp").forward(request, response);
+            }else request.getRequestDispatcher("goods_list_m.jsp").forward(request, response);
         } else if ("detail".equals(action)) {
             //----------查看商品详细------------
             String goodsid = request.getParameter("id");
@@ -393,6 +395,45 @@ public class Controller extends javax.servlet.http.HttpServlet {
         }else if ("mer_init".equals(action)) {
             // -----------商家注册页面进入------------
             request.getRequestDispatcher("mer_reg.jsp").forward(request, response);
+        }else if ("modify".equals(action)) {
+            // 商家修改商品信息
+            request.getRequestDispatcher("modify.jsp").forward(request, response);
+        }else if("create".equals(action)){
+            //形成一个新的商品
+            String name = request.getParameter("name");
+            String price = request.getParameter("price");
+            String description = request.getParameter("description");
+            String brand = request.getParameter("brand");
+            String cpu_brand = request.getParameter("cpu_brand");
+            String cpu_type = request.getParameter("cpu_type");
+            String memory_capacity = request.getParameter("memory_capacity");
+            String hd_capacity = request.getParameter("hd_capacity");
+            String card_model = request.getParameter("card_model");
+            String displaysize = request.getParameter("displaysize");
+            String storage = request.getParameter("storage");
+            Goods goods = new Goods();
+            goods.setName(name);
+            goods.setPrice(Integer.parseInt(price));
+            goods.setDescription(description);
+            goods.setBrand(brand);
+            goods.setCardModel(card_model);
+            goods.setCpuBrand(cpu_brand);
+            goods.setCpuType(cpu_type);
+            goods.setDisplaysize(displaysize);
+            goods.setMemoryCapacity(memory_capacity);
+            goods.setHdCapacity(hd_capacity);
+            goods.setStorage(Integer.parseInt(storage));
+
+            goodsService.create(goods);
+
+            request.getRequestDispatcher("main_m.jsp").forward(request, response);
+        }else if ("change_goods".equals(action)) {
+            //----------查看商品详细------------
+            String goodsid = request.getParameter("id");
+            Goods goods = goodsService.querDetail(new Long(goodsid));
+
+            request.setAttribute("goods", goods);
+            request.getRequestDispatcher("modify.jsp").forward(request, response);
         }
 
     }

@@ -12,4 +12,5 @@ public interface GoodsService {
 
     Goods querDetail(long goodsid);
 
+    void create(Goods goods);
 }
