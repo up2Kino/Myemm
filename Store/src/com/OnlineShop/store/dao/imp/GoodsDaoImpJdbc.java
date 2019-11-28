@@ -121,7 +121,7 @@ public class GoodsDaoImpJdbc implements GoodsDao {
 
     @Override
     public void modify(Goods goods) {
-        String sql = "update Goods set name=?,price=?,description=?,brand=?,cpu_brand=?,cpu_type=?,memory_capacity=?,hd_capacity=?,card_model=?,displaysize=?,image=? ,storage=? where id=?";
+        String sql = "update goods set name=?,price=?,description=?,brand=?,cpu_brand=?,cpu_type=?,memory_capacity=?,hd_capacity=?,card_model=?,displaysize=?,image=? ,storage=? where id=?";
 
         jdbcTemplate.update(conn -> {
 
@@ -138,8 +138,8 @@ public class GoodsDaoImpJdbc implements GoodsDao {
             ps.setString(9, goods.getCardModel());
             ps.setString(10, goods.getDisplaysize());
             ps.setString(11, goods.getImage());
-            ps.setLong(12, goods.getId());
-            ps.setInt(13,goods.getStorage());
+            ps.setInt(12,goods.getStorage());
+            ps.setLong(13, goods.getId());
 
             return ps;
         });

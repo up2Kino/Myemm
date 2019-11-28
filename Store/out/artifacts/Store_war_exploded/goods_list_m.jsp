@@ -72,7 +72,7 @@
             <td class="col1"><a href="controller?action=detail&id=${goods.id}">${goods.description}</a></td>
             <td class="col2">￥${goods.price}</td>
             <td class="col3">${goods.storage}</td>
-            <td class="col4"><a href="controller?action=change_goods&pagename=list&id=${goods.id}">修改</a></td>
+            <td class="col4"><a href="controller?action=change_goods&pagename=list&id=${goods.id}&image=${goods.image}">修改</a></td>
         </tr>
     </c:forEach>
 

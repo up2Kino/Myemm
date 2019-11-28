@@ -65,7 +65,7 @@
 </head>
 
 <body>
-<div><img src="images/4.jpg" align="absmiddle"/>添加或修改商品</div>
+<div>添加或修改商品</div>
 <br>
 <hr width="100%"/>
 <div class="text3" align="center">请填写下列信息</div>
@@ -129,7 +129,9 @@
     <div align="center">
         <input type="image" src="images/submit_button.jpg" />
     </div>
-    <input type="hidden" name="action" value="create" >
+    <input type="hidden" name="id" value="${goods.id}" />
+    <input type="hidden" name="image" value="${goods.image}" />
+    <input type="hidden" name="action" value="${modify}" />
     </form>
 
 </body>

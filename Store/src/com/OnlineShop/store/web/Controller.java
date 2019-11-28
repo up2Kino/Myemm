@@ -34,6 +34,8 @@ public class Controller extends javax.servlet.http.HttpServlet {
     private int totalPageNumber = 0; // 总页数
     private int pageSize = 10; // 每页行数
     private int currentPage = 1; // 当前页数
+    private String modify = new String();
+
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -396,7 +398,9 @@ public class Controller extends javax.servlet.http.HttpServlet {
             // -----------商家注册页面进入------------
             request.getRequestDispatcher("mer_reg.jsp").forward(request, response);
         }else if ("modify".equals(action)) {
-            // 商家修改商品信息
+            // 商家添加商品信息
+            modify = "create";
+            request.setAttribute("modify",modify);
             request.getRequestDispatcher("modify.jsp").forward(request, response);
         }else if("create".equals(action)){
             //形成一个新的商品
@@ -411,6 +415,8 @@ public class Controller extends javax.servlet.http.HttpServlet {
             String card_model = request.getParameter("card_model");
             String displaysize = request.getParameter("displaysize");
             String storage = request.getParameter("storage");
+
+
             Goods goods = new Goods();
             goods.setName(name);
             goods.setPrice(Integer.parseInt(price));
@@ -428,12 +434,60 @@ public class Controller extends javax.servlet.http.HttpServlet {
 
             request.getRequestDispatcher("main_m.jsp").forward(request, response);
         }else if ("change_goods".equals(action)) {
+            modify="update";
+            request.setAttribute("modify",modify);
             //----------查看商品详细------------
             String goodsid = request.getParameter("id");
             Goods goods = goodsService.querDetail(new Long(goodsid));
 
             request.setAttribute("goods", goods);
             request.getRequestDispatcher("modify.jsp").forward(request, response);
+        }else if ("update".equals(action)){
+            String goodsid = request.getParameter("id");
+
+            String name = request.getParameter("name");
+            String price = request.getParameter("price");
+            String description = request.getParameter("description");
+            String brand = request.getParameter("brand");
+            String cpu_brand = request.getParameter("cpu_brand");
+            String cpu_type = request.getParameter("cpu_type");
+            String memory_capacity = request.getParameter("memory_capacity");
+            String hd_capacity = request.getParameter("hd_capacity");
+            String card_model = request.getParameter("card_model");
+            String displaysize = request.getParameter("displaysize");
+            String storage = request.getParameter("storage");
+            String image = request.getParameter("image");
+
+            System.out.println(name);
+            System.out.println(price);
+            System.out.println(description);
+            System.out.println(brand);
+            System.out.println(cpu_brand);
+            System.out.println(cpu_type);
+            System.out.println(memory_capacity);
+            System.out.println(hd_capacity);
+            System.out.println(card_model);
+            System.out.println(image);
+            System.out.println(displaysize);
+            System.out.println(storage);
+
+
+            Goods goods = new Goods();
+            goods.setId(new Long(goodsid));
+            goods.setName(name);
+            goods.setPrice(Integer.parseInt(price));
+            goods.setDescription(description);
+            goods.setBrand(brand);
+            goods.setCardModel(card_model);
+            goods.setCpuBrand(cpu_brand);
+            goods.setCpuType(cpu_type);
+            goods.setDisplaysize(displaysize);
+            goods.setMemoryCapacity(memory_capacity);
+            goods.setHdCapacity(hd_capacity);
+            goods.setStorage(Integer.parseInt(storage));
+            goods.setImage(image);
+            goodsService.update(goods);
+            request.getRequestDispatcher("main_m.jsp").forward(request, response);
         }
 
     }

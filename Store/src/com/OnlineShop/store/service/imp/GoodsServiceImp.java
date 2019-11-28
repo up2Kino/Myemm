@@ -31,4 +31,7 @@ public class GoodsServiceImp implements GoodsService {
         goodsDao.create(goods);
 
     }
+    public void update(Goods goods){
+        goodsDao.modify(goods);
+    }
 }
